@@ -1,4 +1,6 @@
 # Algorithm
 study :)
 
-DP, Greedy, Graph, BFS, DFS, Data Structure ,etc
+From BF
+DP, Greedy, Graph, Data Structure ,etc '\n
+      :)
