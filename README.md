@@ -2,5 +2,6 @@
 study :)
 
 From BF
-DP, Greedy, Graph, Data Structure ,etc '\n
-      :)
+
+DP, Greedy, Graph, Data Structure ,etc
+##      :)
