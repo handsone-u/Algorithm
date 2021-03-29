@@ -1,1 +1,4 @@
 Dynamic Programmingd
+
+- test case가 대부분 맞는대 정답이 아닌경우 
+dp 배열을 long long 으로.
