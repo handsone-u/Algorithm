@@ -1,7 +1,7 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;
-int n,k,a[10001],ans,gap[1000];
+int n,k,a[10001],ans,gap[10001];
 bool comp(int x,int y){
     return x>y;
 }
