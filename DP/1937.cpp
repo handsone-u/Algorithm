@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int n,a[501][501],ans,dx[4]={1,0,-1,0},dy[4]={0,1,0,-1};
+// hello
 bool ck[501][501];
 bool pos(int x,int y){
     if(x<0||y<0||x>=n||y>=n) return false;
@@ -35,5 +36,4 @@ int main(){
     }
 
     cout<<ans<<'\n';
-    return 0;
 }
