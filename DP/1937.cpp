@@ -14,11 +14,7 @@ int dfs(int x,int y){
         int tx=x+dx[i], ty=y+dy[i];
         if(!pos(tx,ty)) continue;
         if(a[tx][ty]<=a[x][y]) continue;
-        int tmp = 0;
-        if(ck[x][y])
-            tmp = 1+dp[x][y];
-        else
-            tmp = 1+dfs(tx,ty);
+        int tmp = 1+dfs(tx,ty);
         if(tmp>dis) dis=tmp;
     }
     ck[x][y]=true;
@@ -37,7 +33,6 @@ int main(){
             dp[i][j] = dfs(i,j);
             if(dp[i][j]>ans) ans=dp[i][j];
         }
-
     cout<<ans+1<<'\n';
     return 0;
 }
