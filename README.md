@@ -1,5 +1,5 @@
 # Algorithm
-study :)
+study
 
 From BF
 
